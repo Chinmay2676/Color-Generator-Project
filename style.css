@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 100%;
+    background: url(bg.w1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+}
+
+section{
+    max-width: 500px;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.colorbox{
+    margin: auto;
+    max-width: 400px;
+    width: 100%;
+    height: 510px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.minicolorbox{
+    width: 380px;
+    height: 340px;
+    margin: auto;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    color: white;
+    border: none;
+    width: 180px;
+    height: 40px;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 15px;
+     margin: 5px;
+}
+button:focus{
+    border: 5px solid rgba(134, 187, 229, 0.425);;
+}
+#h2{
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media(width <= 500px){
+    .colorbox{
+        
+        max-width: 350px;
+        width: 100%;
+        height: 450px
+        
+    }
+    .minicolorbox{
+        width: 330px;
+        height: 280px;
+        margin: auto;
+    }
+    button{
+        background-color: yellow;
+        border: none;
+        width: 140px;
+        height: 40px;
+    }
+} 
+@media(width <= 380px){
+    .colorbox{
+        
+        max-width: 300px;
+        width: 100%;
+        height: 400px
+        
+    }
+    .minicolorbox{
+        width: 280px;
+        height: 250px;
+        margin: auto;
+    }
+    button{
+        background-color: yellow;
+        border: none;
+        width: 100px;
+        height: 40px;
+    }
+    h1{
+        margin: 10px;
+        font-size: 20px;
+    }
+    #h2{
+        font-size: 20px;
+    }
+} 
